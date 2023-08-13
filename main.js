@@ -366,18 +366,22 @@ addCart.onclick = () => {
     cartCounter += 1
     cartContent.textContent = `Cart (${cartCounter})`
     addToCart()
+    HideInCart()
     displayInCart()
     priceAll()
 }
 cart.onclick = () => {
     realCart.style.display = "flex"
+    HideInCart()
     priceAll()
 }
 shop.onclick = () => {
     realCart.style.display = "flex"
+    HideInCart()
     priceAll()
 }
 cancel.onclick = () => {
     realCart.style.display = "none"
+    HideInCart()
     priceAll()
 }
