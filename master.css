@@ -904,7 +904,7 @@ body {
 .add:hover{
     transform:translateX(-50%);
 }
-    .left .lheader ul li:hover{
+    .left .lheader ul li a:hover{
         transform:none;
     }
     .un-active-img img:hover {
