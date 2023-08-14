@@ -900,3 +900,15 @@ body {
         right: calc(50% - 37.5px);
     }
 }
+@media(max-width:767px){
+.add:hover{
+    transform:translateX(-50%);
+}
+    .left .lheader ul li:hover{
+        transform:none;
+    }
+    .un-active-img img:hover {
+    transform: none;
+}
+    
+}
