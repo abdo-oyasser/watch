@@ -740,6 +740,7 @@ body {
     padding: 12px;
     width: 120px;
     height: 45px;
+    
 }
 
 
@@ -747,12 +748,14 @@ body {
     background-color: #96959c;
     border: none;
     cursor: pointer;
+    color:#bfbebe;
 }
 
 .btns .cancel {
     background-color: transparent;
     border: #96959c 2px solid;
     cursor: pointer;
+    color :#96959c;
 }
 
 .allprice {
